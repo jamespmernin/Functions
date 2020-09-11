@@ -1,14 +1,14 @@
-// Question 1
+// Question 1: Print "Hello world!" to the console
 function sayHello() {
   console.log("Question 1:\nHello world!");
 }
 
-// Question 2
+// Question 2: Print another phrase to the console
 function saySomething() {
   console.log("\nQuestion 2:\nYou picking up on what I'm throwing down?");
 }
 
-// Question 3
+// Question 3: Print the numbers 1-100 to the console
 function print100() {
   let nums = [];
   console.log('\nQuestion 3:');
@@ -18,7 +18,7 @@ function print100() {
   console.log(nums);
 }
 
-// Question 4
+// Question 4: Given an array of numbers, calculate and return the sum of all the numbers
 function arraySum(nums) {
   let sum = 0;
   for (let i = 0; i < nums.length; i++) {
@@ -27,7 +27,7 @@ function arraySum(nums) {
   return sum;
 }
 
-// Question 5
+// Question 5: Given an array of students, loop through and print what class each student is in
 function roleCall() {
   console.log('\nQuestion 5:');
   const students = [
@@ -54,7 +54,7 @@ function roleCall() {
   }
 }
 
-// Question 6
+// Question 6: Given an array of words, create an array of their lengths and return that array
 function wordLengths(words) {
   let lengths = [];
   for (let i = 0; i < words.length; i++) {
@@ -63,12 +63,12 @@ function wordLengths(words) {
   return lengths;
 }
 
-// Question 7
+// Question 7: Given three numbers, return the product of the first two raised to the power of the third
 function funkyMath(num1, num2, num3) {
   return Math.pow(num1 * num2, num3);
 }
 
-// Bonus 1
+// Bonus 1: Print only the EVEN numbers between 1 and 100
 function print100evens() {
   let nums = [];
   let numsIndex = 0;
@@ -82,7 +82,7 @@ function print100evens() {
   console.log(nums);
 }
 
-// Bonus 2
+// Bonus 2: Print the first twenty numbers in the Fibonacci sequence
 function fib20() {
   let fib = [];
   fib[0] = 0;
