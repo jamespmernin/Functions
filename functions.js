@@ -84,9 +84,7 @@ function print100evens() {
 
 // Bonus 2: Print the first twenty numbers in the Fibonacci sequence
 function fib20() {
-  let fib = [];
-  fib[0] = 0;
-  fib[1] = 1;
+  let fib = [0, 1];
   for (let i = 2; i < 20; i++) {
     fib[i] = fib[i - 2] + fib[i - 1];
   }
