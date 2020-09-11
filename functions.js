@@ -64,8 +64,8 @@ function wordLengths(words) {
 }
 
 // Question 7: Given three numbers, return the product of the first two raised to the power of the third
-function funkyMath(num1, num2, num3) {
-  return Math.pow(num1 * num2, num3);
+function funkyMath(x, y, z) {
+  return Math.pow(x * y, z);
 }
 
 // Bonus 1: Print only the EVEN numbers between 1 and 100
