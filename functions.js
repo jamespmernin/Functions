@@ -10,10 +10,12 @@ function saySomething() {
 
 // Question 3
 function print100() {
+  let nums = [];
   console.log('\nQuestion 3:');
   for (let i = 1; i <= 100; i++) {
-    console.log(i);
+    nums[i - 1] = i;
   }
+  console.log(nums);
 }
 
 // Question 4
@@ -68,12 +70,16 @@ function funkyMath(num1, num2, num3) {
 
 // Bonus 1
 function print100evens() {
+  let nums = [];
+  let numsIndex = 0;
   console.log('\nBonus 1:');
   for (let i = 1; i <= 100; i++) {
     if (i % 2 === 0) {
-      console.log(i);
+      nums[numsIndex] = i;
+      numsIndex++;
     }
   }
+  console.log(nums);
 }
 
 // Bonus 2
