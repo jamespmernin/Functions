@@ -58,7 +58,7 @@ function roleCall() {
 function wordLengths(words) {
   let lengths = [];
   for (let i = 0; i < words.length; i++) {
-    lengths[i] = words[i].length;
+    lengths.push(words[i].length);
   }
   return lengths;
 }
